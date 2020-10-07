@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+}
+
+.header{
+  width: 80%;
+  margin: auto;
+}
+
+#gmail{
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+
+}

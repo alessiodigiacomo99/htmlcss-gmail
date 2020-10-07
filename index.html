@@ -4,19 +4,73 @@
     <meta charset="utf-8">
     <title>logo_gmail</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
 
     <header>
-      <div class="header">
+      <div class="posizione">
         <img src="img/gmail_logo.png" alt="logo di gmail">
         <div id="gmail">Gmail</div>
         <hr>
       </div>
     </header>
 
-    <main>
+    <main class="posizione">
+      <!-- lettere non lette -->
+      <section>
+        <div>
+          <input type="text" name="barra_di_ricerca" placeholder="Search..">
+          <button type="button" name="button" id="ricerca">VAI</button>
+          <div class="unread">You have <span id="numero">30</span> unread</div>
+          <hr>
+        </div>
+      </section>
 
+      <!-- lettere da leggere -->
+
+      <section>
+
+        <!-- prima email -->
+        <div class="email grigia">
+          <input type="checkbox" name="" value="">
+          <span>
+            &#9733; <span class="oggetto">Oggetto della email </span>
+            <span class="testo">- testo della email..</span>
+          </span>
+        </div>
+
+        <!-- seconda email -->
+        <div class="email bianca">
+          <input type="checkbox" name="" value="">
+          <span>
+            &#9733; <span class="oggetto">Oggetto della email </span>
+            <span class="testo">- testo della email..</span>
+          </span>
+        </div>
+
+        <!-- terza email -->
+        <div class="email grigia">
+          <input type="checkbox" name="" value="">
+          <span>
+            &#9733; <span class="oggetto">Oggetto della email </span>
+            <span class="testo">- testo della email..</span>
+          </span>
+        </div>
+
+        <!-- quarta email -->
+        <div class="email grigia">
+          <input type="checkbox" name="" value="">
+          <span>
+            &#9733; <span class="oggetto">Oggetto della email </span>
+            <span class="testo">- testo della email..</span>
+          </span>
+        </div>
+
+      </section>
+
+      <hr>
+      
     </main>
 
     <footer>

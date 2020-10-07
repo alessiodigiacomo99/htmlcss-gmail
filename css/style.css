@@ -1,9 +1,9 @@
-*{
+body{
   box-sizing: border-box;
   background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
 }
 
-.header{
+.posizione{
   width: 80%;
   margin: auto;
 }
@@ -12,5 +12,42 @@
   color: white;
   font-size: 20px;
   display: inline-block;
+}
 
+#ricerca{
+  border-radius: 5px;
+}
+
+#numero{
+  background-color: orange;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.unread{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.email{
+  border: 1px solid black;
+}
+
+.grigia{
+  background-color: lightgrey;
+}
+
+.oggetto{
+  font-family: 'Roboto', sans-serif;
+  font-size: 500;
+}
+
+.testo{
+  color: grey;
+}
+
+.bianca{
+  background-color: white;
 }
